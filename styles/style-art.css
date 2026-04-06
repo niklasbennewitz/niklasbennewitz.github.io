@@ -1,0 +1,104 @@
+/* CSS Document */
+*{padding: 0; margin:0;}
+
+html {height: 101%;}
+body {
+	background-image: url(../bilder/homepage_bg.jpg);
+	background-repeat: repeat;
+}
+
+#wrapper {
+	width: 812px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+
+}
+
+#logo {
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_01.gif);
+	width: 812px;
+	height: 94px;
+}
+
+#header01 {
+	height: 27px;
+	width: 812px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_02.gif);
+	color: #000000;
+	text-decoration: none;
+}
+
+#menue {
+	display: block;
+	float: left;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 400px;
+	height: 12px;
+	position: relative;
+	left: 200px;
+}
+
+#menue A {
+	display: block;
+	font-weight: bold;
+	font-size: 10px;
+	float: left;
+	padding-bottom: 0px;
+	color: #000000;
+	padding-top: 0px;
+	text-align: right;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 96px;
+}
+
+#content {
+	width: 812px;
+	position: relative;	
+	background-color:#000000	
+}
+
+#header02 {
+	display: block;
+	float: left;
+	height: 34px;
+	width: 625px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_03.gif);
+	color: #000000;
+	top: 121px;
+}
+
+#seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seiten/seitenmenue-art.gif);
+	height: 105px;
+	width: 187px;
+}
+
+#seitenmenue a        { color: #000000; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; line-height: 17px; text-decoration: none;  text-align: left; display: block; margin: 0 auto; padding-top: 0; padding-right: 0px; padding-bottom: 0; width: 187px; background-image: url(../bilder/seitenpfeil.gif); }
+#seitenmenue a:hover { color: #000000; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; line-height: 17px; 
+text-decoration: none; text-align: left; display: block; margin: 0 auto; padding-top: 0; padding-right: 0px; padding-bottom: 0; width: 187px; background-image: url(../bilder/seitenpfeil_over.gif); }
+
+#seitenmenueheader {
+	height: 28px;
+}
+
+.bilderprojects {
+	padding-left: 32px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-bottom: 6px;
+}#footer {
+	background-image: url(../bilder/footer.gif);
+	height: 33px;
+	width: 812px;
+}

@@ -1,0 +1,350 @@
+/* CSS Document */
+* {
+	padding: 0;
+	margin:0;
+}
+html {
+	height: 101%;
+}
+body {
+	background-image: url(../bilder/homepage_bg.jpg);
+	background-repeat: repeat;
+}
+#wrapper {
+	position:relative;
+	background:#000000;
+	width: 812px;
+	margin: 0 auto;
+}
+
+#logo {
+	background-color: #000000;
+	background-image: url(../bilder/header_01.gif);
+	width: 812px;
+	height: 94px;
+}
+
+#menue {
+	position:absolute;
+	left:200px;
+	display: block;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	width: 400px;
+	height: 12px;
+}
+#menue A {
+	display: block;
+	font-weight: bold;
+	font-size: 10px;
+	float: left;
+	padding-bottom: 0px;
+	color: #000000;
+	padding-top: 0px;
+	text-align: right;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 96px;
+}
+
+#seitenmenue a {
+	display: block;
+	color: #000000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 17px;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 26px;
+	width: 161px;
+	background: url(../bilder/seitenpfeil.gif) no-repeat;
+}
+#seitenmenue a:hover {
+	display: block;
+	color: #000000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 17px;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 26px;
+	width: 161px;
+	background: url(../bilder/seitenpfeil_over.gif) no-repeat;
+}
+
+#footer {
+	background-image: url(../bilder/footer.gif);
+	height: 33px;
+	width: 812px;
+}
+
+.clear {
+clear:both;
+}
+
+
+/* Projects */
+#projects #seitenmenueheader {
+	height: 28px;
+}
+
+#projects #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seitenmenue.gif);
+	height: 222px;
+	width: 187px;
+}
+
+#projects #header01 {
+	height: 27px;
+	width: 812px;
+	background-color: #000000;
+	background-image: url(../bilder/header_02.gif);
+}
+#projects #header02 {
+	float:left;
+	height: 30px;
+	width: 625px;
+	background-color: #000000;
+	background-image: url(../bilder/header_03.gif);
+}
+
+#projects #content {
+	float:left;
+	width: 625px;
+	background-color:#000000;
+}
+
+#projects .bilderprojects {
+	padding-left: 32px;
+	border: none;
+	padding-bottom: 6px;
+}
+
+/* Artwork */
+#artwork #seitenmenueheader {
+	height: 28px;
+}
+
+#artwork #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seitenmenue.gif);
+	height: 222px;
+	width: 187px;
+}
+
+.bilderprojects {
+	padding-left: 32px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-bottom: 6px;
+}
+#artwork #header01 {
+	height: 27px;
+	width: 812px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_02.gif);
+	color: #000000;
+	text-decoration: none;
+}
+
+#artwork #header02 {
+	float:left;
+	height: 30px;
+	width: 625px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_03.gif);
+}
+
+#artwork #seitenmenue  {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seiten/seitenmenue-art.gif);
+	height: 105px;
+	width: 187px;
+}
+
+#artwork #content {
+	float:left;
+	width: 625px;
+	background-color:#000000;
+}
+
+/* Resume */
+#resume #seitenmenueheader {
+	height: 28px;
+}
+
+#resume #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seitenmenue.gif);
+	height: 222px;
+	width: 187px;
+}
+
+#resume #header01 {
+	height: 27px;
+	width: 812px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_02.gif);
+	color: #000000;
+	text-decoration: none;
+}
+
+#resume #header02 {
+	float:left;
+	height: 30px;
+	width: 625px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_03.gif);
+}
+
+#resume #content {
+	float:left;
+	width: 625px;
+	background-color:#000000;
+}
+
+#resume #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seiten/seitenmenue-resume.gif);
+	height: 344px;
+	width: 187px;
+}
+
+
+/* Kontakt */
+#kontakt #seitenmenueheader {
+	height: 28px;
+}
+
+#kontakt #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seitenmenue.gif);
+	height: 222px;
+	width: 187px;
+}
+
+#kontakt #header01 {
+	height: 27px;
+	width: 812px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_02.gif);
+	color: #000000;
+	text-decoration: none;
+}
+
+#kontakt #header02 {
+	float:left;
+	height: 30px;
+	width: 625px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_03.gif);
+}
+
+#kontakt #content {
+	float:left;
+	width: 625px;
+	background-color:#000000;
+}
+
+#kontakt #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seiten/seitenmenue-resume.gif);
+	height: 344px;
+	width: 187px;
+}
+
+#kontakt #container {
+	padding-left: 32px;
+	background-color:#000;
+}
+
+#kontakt #contentabstand {
+	height:450px;
+	width: 508px;
+	background-color:#3498f6;
+	color: #000000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-image: url(../bilder/kontakt-pfeil.gif);
+	background-repeat: no-repeat;
+	clear: left;
+	padding-left: 52px;
+	padding-top: 10px;
+}
+
+/* Impressum */
+#impressum #seitenmenueheader {
+	height: 28px;
+}
+
+#impressum #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seitenmenue.gif);
+	height: 222px;
+	width: 187px;
+}
+
+#impressum #header01 {
+	height: 27px;
+	width: 812px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_02.gif);
+	color: #000000;
+	text-decoration: none;
+}
+
+#impressum #header02 {
+	float:left;
+	height: 30px;
+	width: 625px;
+	background-color: #000000;
+	background-image: url(../bilder/seiten/header_03.gif);
+}
+
+#impressum #content {
+	float:left;
+	width: 625px;
+	background-color:#000000;
+}
+
+#impressum #seitenmenue {
+	display: block;
+	float: right;
+	background-image: url(../bilder/seitenmenue.gif);
+	height: 222px;
+	width: 187px;
+}
+
+#impressum #container {
+	padding-left: 32px;
+	background-color:#000;
+}
+
+#impressum #contentabstand {
+	height:450px;
+	width: 508px;
+	background-color:#3498f6;
+	color: #000000;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	background-image: url(../bilder/kontakt-pfeil.gif);
+	background-repeat: no-repeat;
+	clear: left;
+	padding-left: 52px;
+	padding-top: 10px;
+}
